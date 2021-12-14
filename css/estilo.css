@@ -1,18 +1,18 @@
 body {
-    background: #d2d2c1 url('../img/fundo.png');
-    background-attachment: fixed;
+    background: #d2d2c1 url('../img/fundo.png');    /*definindo cor caso a imagem não carregue*/
+    background-attachment: fixed;   /*Para que a imagem não role junto com o scroll do mouse*/
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 h1 {
     color: #8a8a5c;
-    font-size: 1.2em;
+    font-size: 1.2em;   /*aumentada de acordo com o tamanho de 16px definido no body*/
 }
 
 a {
     color: #4b566a;
-    text-decoration: none;
-    font-weight: bold;
+    text-decoration: none;  /*retira o sublinhado dos links*/
+    font-weight: bold; /*fonte em negrito*/
     padding: 5px;
 }
 
@@ -23,7 +23,6 @@ a {
 
 #menu {
     background: #c5c5b2;
-    border: none;
     padding: 18px;
 }
 
@@ -33,7 +32,7 @@ a {
 }
 
 #rodape {
-    text-align: center;
+    text-align: center; /*centralizando texto do rodapé*/
 }
 
 .img-campanha {
